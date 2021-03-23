@@ -2,9 +2,9 @@
 
 Clone the Repository
 Go to the folder "Postman-Newman"
-Install TestCafe: npm install -g testcafe
+Install Newman: npm install -g newman
 Install all dependencies: npm i
-Install testcafe-reporter-html globlly: npm i -g testcafe-reporter-html
+Install newman-reporter-htmlextra: newman-reporter-htmlextra
 Run the test
 To run in Chrome browser use: npm run chrome
 To run in Firefox browser use: npm run firefox
