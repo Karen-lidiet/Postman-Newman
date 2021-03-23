@@ -11,7 +11,7 @@
  - To run the tests with newman-reporter-htmlextra use: npm run html
  - To run the test to create several task using a file in CLI use: npm run datafile
  - To run the test to create several task using a file with newman-reporter-htmlextra use: npm run datahtml
-(report will save on "reports" folder project)
+* (report will save on "reports" folder located in "Todoist\reports" path)
 
 # Technology used
 - Postman
