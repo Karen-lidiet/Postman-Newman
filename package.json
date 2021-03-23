@@ -1,0 +1,20 @@
+{
+  "name": "postmannewman",
+  "version": "1.0.0",
+  "description": "backend Postman-newman",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json",
+    "html": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json -r htmlextra --reporter-htmlextra-export ./Todoist/reports/todoistAPIreport.html",
+    "datafile": "npx newman run ./Todoist/test/api/collection/TodoistMultipletasks.json -e ./Todoist/test/api/envVariables/QAenv.json -d ./Todoist/test/api/data/MultipleTasks.csv",
+    "datahtml": "npx newman run ./Todoist/test/api/collection/TodoistMultipletasks.json -e ./Todoist/test/api/envVariables/QAenv.json -d ./Todoist/test/api/data/MultipleTasks.csv -r htmlextra --reporter-htmlextra-export ./Todoist/reports/todoistAPIreportMultitask.html",
+    "envvar": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json --global-var token=$PM_TOKEN"
+  },
+  "keywords": [],
+  "author": "karen",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.2",
+    "newman-reporter-htmlextra": "^1.20.1"
+  }
+}

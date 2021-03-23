@@ -1,0 +1,24 @@
+{
+	"id": "01882473-50ac-4b88-908a-63bd87798e0b",
+	"name": "QAenv",
+	"values": [
+		{
+			"key": "baseURL",
+			"value": "https://api.todoist.com/rest/v1/tasks",
+			"enabled": true
+		},
+		{
+			"key": "taskName",
+			"value": "Test_Task2",
+			"enabled": true
+		},
+		{
+			"key": "taskId",
+			"value": 4676389525,
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-03-21T19:16:52.797Z",
+	"_postman_exported_using": "Postman/8.0.7"
+}
