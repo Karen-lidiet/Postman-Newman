@@ -8,6 +8,11 @@
 			"enabled": true
 		},
 		{
+			"key": "token",
+			"value": "7e67bb602c7cc9cd70dcdd7a504058210264abaa",
+			"enabled": true
+		},
+		{
 			"key": "taskName",
 			"value": "Test_Task2",
 			"enabled": true

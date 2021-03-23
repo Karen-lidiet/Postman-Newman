@@ -7,8 +7,7 @@
     "test": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json",
     "html": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json -r htmlextra --reporter-htmlextra-export ./Todoist/reports/todoistAPIreport.html",
     "datafile": "npx newman run ./Todoist/test/api/collection/TodoistMultipletasks.json -e ./Todoist/test/api/envVariables/QAenv.json -d ./Todoist/test/api/data/MultipleTasks.csv",
-    "datahtml": "npx newman run ./Todoist/test/api/collection/TodoistMultipletasks.json -e ./Todoist/test/api/envVariables/QAenv.json -d ./Todoist/test/api/data/MultipleTasks.csv -r htmlextra --reporter-htmlextra-export ./Todoist/reports/todoistAPIreportMultitask.html",
-    "envvar": "npx newman run ./Todoist/test/api/collection/TodoistChallenge.json -e ./Todoist/test/api/envVariables/QAenv.json --global-var token=$PM_TOKEN"
+    "datahtml": "npx newman run ./Todoist/test/api/collection/TodoistMultipletasks.json -e ./Todoist/test/api/envVariables/QAenv.json -d ./Todoist/test/api/data/MultipleTasks.csv -r htmlextra --reporter-htmlextra-export ./Todoist/reports/todoistAPIreportMultitask.html"
   },
   "keywords": [],
   "author": "karen",
