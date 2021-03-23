@@ -12,6 +12,7 @@
  - To run the test to create several task using a file in CLI use: npm run datafile
  - To run the test to create several task using a file with newman-reporter-htmlextra use: npm run datahtml
    - (report will save on "reports" folder located in "Todoist\reports" path)
+   - ![image](https://user-images.githubusercontent.com/80799988/112077812-8694be80-8b7d-11eb-9c56-10b50f1a887c.png)
 
 # Technology used
 - Postman
